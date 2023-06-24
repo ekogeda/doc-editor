@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <label for="file-upload" class="custom-file-upload"> Open PDF </label>
-    {{ pdfFile }}
     <input id="file-upload" type="file" @change="openDocument" class="btn" />
     <PSPDFKitContainer :pdfFile="pdfFile" @loaded="handleLoaded" />
   </div>
