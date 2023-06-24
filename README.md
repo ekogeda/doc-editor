@@ -22,4 +22,4 @@ npm run lint
 ```
 
 ### Launch demo
-See [Demo](https://doc-editor.netlify.app/).
+See [Demo](https://docedit.netlify.app/).
